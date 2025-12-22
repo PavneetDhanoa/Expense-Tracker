@@ -1,16 +1,34 @@
-# Expense Tracker
-This is a simple expense tracker I built using Python. It lets me add income and expenses, stores everything in a CSV file, and shows some useful visualizations like bar charts and pie charts to better understand where my money goes.
+# Expense Tracker (Python)
+
+A command-line based expense tracking application built using Python.  
+The program allows users to record income and expenses, store financial data in a CSV file, and visualize spending patterns using charts.
+
+This project demonstrates practical use of Python for data handling, file I/O, and basic data visualization.
+
+---
 
 ## Features
 
-- Add income or expenses by category, date, and amount
-- Data is saved in a CSV file so it's easy to track over time
-- Monthly spending is displayed as a bar chart
-- Expenses by category are shown in a pie chart
-- Easy-to-use command-line interface
+- Add income and expense entries with category, date, and amount
+- Persistent data storage using CSV files
+- Monthly spending visualization using bar charts
+- Expense distribution by category using pie charts
+- Simple and interactive command-line interface
+
+---
+
+## Technologies Used
+
+- Python
+- CSV file handling
+- Matplotlib (data visualization)
+- Basic data processing and control flow
+
+---
 
 ## How to Run
 
-1. Install matplotlib if you don’t have it:
+1. Clone the repository:
    ```bash
-   pip install matplotlib
+   git clone https://github.com/PavneetDhanoa/Expense-Tracker.git
+   cd Expense-Tracker
